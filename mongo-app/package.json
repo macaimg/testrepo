@@ -1,0 +1,17 @@
+{
+  "name": "mongo-app",
+  "version": "1.0.0",
+  "description": "mean stack test app",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "author": "neo",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^3.3.0",
+    "mongodb": "^2.2.26",
+    "mongojs": "^2.4.0",
+    "underscore": "^1.8.3"
+  }
+}
