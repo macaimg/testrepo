@@ -4,11 +4,14 @@
   "description": "mean stack test app",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "mocha test.js",
+    "watch": "gulp watch"
   },
   "author": "neo",
   "license": "ISC",
   "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^4.3.1",
     "mocha": "^3.3.0",
     "mongodb": "^2.2.26",
     "mongojs": "^2.4.0",
